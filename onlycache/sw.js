@@ -1,15 +1,16 @@
-const offlinePage = '/offline.html';
+const offlinePage = './offline.html';
 const cacheName = 'offline-cache-v1';
 
 
 const assetsToCache = [
-  '/',                        
-  '/index.html',
-  '/pages/conocenos.html',
-  '/pages/oferta.html',
-  '/offline.html',
-  '/main.js'
+  './',
+  './index.html',
+  './pages/conocenos.html',
+  './pages/oferta.html',
+  './offline.html',
+  './main.js'
 ];
+
 
 
 self.addEventListener('install', event => {
